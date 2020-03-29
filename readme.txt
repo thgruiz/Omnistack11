@@ -1,3 +1,6 @@
+
+First Class commands: 
+
 Get-ExecutionPolicy
 Set-ExecutionPolicy Bypass -Scope Process
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -49,6 +52,9 @@ npm start
 cd .\frontend\
 npm start
 node .\index.js
+
+Second class commands:
+
 npm install nodemon -D
 npm start
 npm install knex
@@ -60,3 +66,10 @@ npx knex migrate:latest
 npx knex migrate:make create_incidents
 npx knex migrate:latest
 npm install cors
+
+
+Third class comands:
+
+npm install react-icons
+npm install react-router-dom
+npm install axios
