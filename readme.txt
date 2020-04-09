@@ -59,3 +59,12 @@ expo install expo-constants
 expo install expo-mail-composer
 npm install axios
 npm install intl
+
+Fifth class commands:
+
+npm install celebrate
+npm install jest -D
+npx jest --init
+npm test
+npm install cross-env
+npm install supertest -D
